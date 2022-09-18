@@ -181,7 +181,7 @@ public class Basics {
         if (length <= 1){
             return 0;
         } else{
-            for (int i = 0; i <= length; i++){
+            for (int i = 0; i <= length - 1; i++){
                 if (i % 2 != 0) {
                     current_sum = current_sum + arr[i];
                 }
